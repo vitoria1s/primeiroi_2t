@@ -1,0 +1,84 @@
+body {
+  background: rgb(179, 210, 235)255, 235, 192);
+}
+h1 {
+  text-align: center;
+}
+.caixa1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: green;
+  left: 0;
+  bottom:0;
+}
+.caixa2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  left: 205px;
+  bottom:0;
+}
+.menuPrincipal {
+   position: absolute;
+   width: 100%;
+   height: 45px;
+   background:rgb(161, 246, 252);
+   font-family: 'Courier New', Courier, monospace;
+   top: 0;
+   left: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background: rgb(139, 105, 201);
+  color: azure;
+}
+#tigre {
+  width: 10%;
+}
+.caixaTigre {
+  position: absolute;
+  top: 45px;
+  width: 90%;
+  height: 120px;
+  background-color: black;
+  left: 0%;
+  margin: 20px;
+  border-color: cadetblue;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.caixaTigre2 {
+  position: absolute;
+  top: 45px;
+  width: 90%;
+  height: 120px;
+  background-color: rgb(2, 47, 116);
+  left: 0%;
+  margin: 20px;
+  border-color: rgb(3, 183, 189);
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
